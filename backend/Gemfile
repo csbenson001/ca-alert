@@ -8,13 +8,13 @@ git_source(:github) do |repo_name|
 end
 
 gem 'activerecord-postgis-adapter'
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 0.1.40'
 gem 'faker'
 gem 'jbuilder'
 gem 'pg'
 gem 'puma'
 gem 'rack-cors'
-gem 'rails'
+gem 'rails', '>= 5.0.1'
 gem 'rgeo'
 gem 'rolify'
 gem 'swagger-blocks'

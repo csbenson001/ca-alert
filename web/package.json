@@ -11,7 +11,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "moment": "^2.17.1",
+    "moment": "^2.29.2",
     "node-sass": "^4.5.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

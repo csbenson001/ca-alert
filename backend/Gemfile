@@ -7,14 +7,14 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'activerecord-postgis-adapter'
-gem 'devise_token_auth'
+gem 'activerecord-postgis-adapter', '>= 9.0.0'
+gem 'devise_token_auth', '>= 1.2.3'
 gem 'faker'
 gem 'jbuilder'
 gem 'pg'
 gem 'puma'
 gem 'rack-cors'
-gem 'rails'
+gem 'rails', '>= 7.1.5.2'
 gem 'rgeo'
 gem 'rolify'
 gem 'swagger-blocks'
